@@ -19,15 +19,6 @@ public class Pet
         this.Address = address;
     }
 
-//    void AddDaysInWeek(String DayName)
-//    {
-//        if(Days == null)
-//        {
-//           Days = new ArrayList<String>();
-//        }
-//        Days.add(DayName);
-//    }
-
     void AddFrequency(HashMap<String,Integer> Freq)
     {
         if(Frequency == null)
@@ -43,12 +34,6 @@ public class Pet
         System.out.println(this.Name);
         System.out.println(this.Type);
         System.out.println(this.Address);
-//        for (String st:this.Days
-//                )
-//        {
-//            System.out.println(st);
-//        }
-
         System.out.println("Number of times in a week" + Frequency);
         System.out.println("****************************************************");
     }
