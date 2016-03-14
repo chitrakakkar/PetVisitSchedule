@@ -19,14 +19,14 @@ public class Pet
         this.Address = address;
     }
 
-    void AddDaysInWeek(String DayName)
-    {
-        if(Days == null)
-        {
-           Days = new ArrayList<String>();
-        }
-        Days.add(DayName);
-    }
+//    void AddDaysInWeek(String DayName)
+//    {
+//        if(Days == null)
+//        {
+//           Days = new ArrayList<String>();
+//        }
+//        Days.add(DayName);
+//    }
 
     void AddFrequency(HashMap<String,Integer> Freq)
     {

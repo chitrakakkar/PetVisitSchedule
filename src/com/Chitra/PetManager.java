@@ -16,19 +16,19 @@ public class PetManager
     {
         HashMap<String,Integer> info = new HashMap<>();
         Pet Pet1 = new Pet ("Molly","Cat","110 E 18th street ");
-        Pet1.AddDaysInWeek("Monday");
-        //Pet1.AddFrequency("Monday",2);
-        Pet1.AddDaysInWeek("Tuesday");
-        Pet1.AddDaysInWeek("Wednesday");
-        info.put("Monday",2);
+//        Pet1.AddDaysInWeek("Monday");
+//        //Pet1.AddFrequency("Monday",2);
+//        Pet1.AddDaysInWeek("Tuesday");
+//        Pet1.AddDaysInWeek("Wednesday");
+//        info.put("Monday",2);
         info.put("Tuesday",1);
         info.put("Wednesday",2);
         Pet1.AddFrequency(info);
         Pet Pet2 = new Pet("Nina","Dog","407 7th street SE");
-        Pet2.AddDaysInWeek("Monday");
-        Pet2.AddDaysInWeek("Tuesday");
-        Pet2.AddDaysInWeek("Thursday");
-        Pet2.AddDaysInWeek("Friday");
+//        Pet2.AddDaysInWeek("Monday");
+//        Pet2.AddDaysInWeek("Tuesday");
+//        Pet2.AddDaysInWeek("Thursday");
+//        Pet2.AddDaysInWeek("Friday");
         info.put("Monday",3);
         info.put("Tuesday",3);
         info.put("Thursday",4);
